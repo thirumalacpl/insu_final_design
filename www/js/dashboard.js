@@ -152,7 +152,7 @@ $.mobile.changePage($('#supervisor_inprogress_list'), { transition: "none", chan
 /*$(document).off('click', '#completed').on('click', '#completed', function() {
 //alert(region+'inprogress');
 //alert(region+'region');
-$.ajax({url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/dash_completeda.php?',
+$.ajax({url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/dash_completeda.php?',
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -194,7 +194,7 @@ alert('Network error has occurred please try again!');
 $(document).off('click', '#verified_insu').on('click', '#verified_insu', function() {
 //alert(region+'inprogress');
 //alert(region+'region');
-$.ajax({url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/index_verifd_insu.php?',
+$.ajax({url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/index_verifd_insu.php?',
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -251,7 +251,7 @@ alert('Network error has occurred please try again!');
 $(document).off('click', '#inprogress_insu').on('click', '#inprogress_insu', function() {
 //alert(region+'inprogress');
 //alert(region+'region');
-$.ajax({url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/index_insu.php',
+$.ajax({url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/index_insu.php',
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -362,7 +362,7 @@ var app = {
 	//alert(username+'username');
 	//alert(region+'region');
 		//alert(user_id+'user_id');
- $.ajax({url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/gcm_id_user.php?gcm_regid='+gcm_regid+"&E_Mail="+E_Mail+"&username="+username+"&region="+region+"&user_id="+user_id,
+ $.ajax({url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/gcm_id_user.php?gcm_regid='+gcm_regid+"&E_Mail="+E_Mail+"&username="+username+"&region="+region+"&user_id="+user_id,
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -407,7 +407,7 @@ alert('Network error has occurred please try again!');
 
            alert(data.title + data.message);
 
-           $.ajax({url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/count.php?region='+region+"&user_id="+user_id+"&state="+state,
+           $.ajax({url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/count.php?region='+region+"&user_id="+user_id+"&state="+state,
   data:$('#update_to_inprogressw').serialize(),
   type: 'post',                   
   async: 'true',

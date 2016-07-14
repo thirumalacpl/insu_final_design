@@ -524,7 +524,7 @@ $.ajaxPrefilter(function( options, originalOptions, jqXHR ) {
 var formData = $("#sdfdsf").serialize();
 $.ajax({
   type: "POST",
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/seen.php?user_ida="+user_ida+"&qualification_id="+qualification_id+"&subco_statuss="+subco_statuss,
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/seen.php?user_ida="+user_ida+"&qualification_id="+qualification_id+"&subco_statuss="+subco_statuss,
   data: formData,
   async: 'true',
   crossDomain: true,

@@ -505,9 +505,9 @@ alert(insu_investiagtor_nine_seven_b+'insu_investiagtor_nine_seven_b');*/
 var status="FV";
 
 $.ajax({
-    url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_seven_a="+insu_accident_nine_seven_a+"&insu_investiagtor_nine_seven_b="+insu_investiagtor_nine_seven_b+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
-//  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_hundred_a="+insu_accident_hundred_a+"&insu_investiagtor_hundred_b="+insu_investiagtor_hundred_b+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
-  //url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/index_verifd_insu.php?',
+    url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_seven_a="+insu_accident_nine_seven_a+"&insu_investiagtor_nine_seven_b="+insu_investiagtor_nine_seven_b+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
+//  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_hundred_a="+insu_accident_hundred_a+"&insu_investiagtor_hundred_b="+insu_investiagtor_hundred_b+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
+  //url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/index_verifd_insu.php?',
   data:$('#insuform').serialize(),
   type: 'post',                   
   async: 'true',
@@ -577,7 +577,7 @@ var formData = $("#insuform").serialize();
 alert('drop button value insert 97');
 $.ajax({
   type: "POST",
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_seven_a="+insu_accident_nine_seven_a+"&insu_investiagtor_nine_seven_b="+insu_investiagtor_nine_seven_b+"&status="+status,
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_seven_a="+insu_accident_nine_seven_a+"&insu_investiagtor_nine_seven_b="+insu_investiagtor_nine_seven_b+"&status="+status,
   data: formData,
   success: onSuccessad,
   async: 'true',
@@ -616,9 +616,9 @@ document.getElementById('insu_final_one_zero_six').value = "";
 var status="OV";
 
 $.ajax({
-  //url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_five_a="+insu_accident_nine_five_a+"&insu_inves_nine_five_b="+insu_inves_nine_five_b+"&insu_final_nine_five_c="+insu_final_nine_five_c+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_hundred_a="+insu_accident_hundred_a+"&insu_investiagtor_hundred_b="+insu_investiagtor_hundred_b+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
-  //url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/index_verifd_insu.php?',
+  //url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_five_a="+insu_accident_nine_five_a+"&insu_inves_nine_five_b="+insu_inves_nine_five_b+"&insu_final_nine_five_c="+insu_final_nine_five_c+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_hundred_a="+insu_accident_hundred_a+"&insu_investiagtor_hundred_b="+insu_investiagtor_hundred_b+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
+  //url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/index_verifd_insu.php?',
   data:$('#insuform').serialize(),
   type: 'post',                   
   async: 'true',
@@ -689,7 +689,7 @@ var formData = $("#insuform").serialize();
 alert('drop button value insert 100');
 $.ajax({
   type: "POST",
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_hundred_a="+insu_accident_hundred_a+"&insu_investiagtor_hundred_b="+insu_investiagtor_hundred_b+"&status="+status,
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_hundred_a="+insu_accident_hundred_a+"&insu_investiagtor_hundred_b="+insu_investiagtor_hundred_b+"&status="+status,
   data: formData,
   success: onSuccessad,
   async: 'true',
@@ -732,8 +732,8 @@ alert(state+'state');*/
 var status="DV";
 
 $.ajax({
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_nine_a="+insu_accident_nine_nine_a+"&insu_investiagtor_nine_nine_b="+insu_investiagtor_nine_nine_b+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
-  //url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/index_verifd_insu.php?',
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_nine_a="+insu_accident_nine_nine_a+"&insu_investiagtor_nine_nine_b="+insu_investiagtor_nine_nine_b+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
+  //url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/index_verifd_insu.php?',
   data:$('#insuform').serialize(),
   type: 'post',                   
   async: 'true',
@@ -803,7 +803,7 @@ var formData = $("#insuform").serialize();
 alert('drop button value insert 99');
 $.ajax({
   type: "POST",
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_nine_a="+insu_accident_nine_nine_a+"&insu_investiagtor_nine_nine_b="+insu_investiagtor_nine_nine_b+"&status="+status,
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_nine_a="+insu_accident_nine_nine_a+"&insu_investiagtor_nine_nine_b="+insu_investiagtor_nine_nine_b+"&status="+status,
   data: formData,
   success: onSuccessad,
   async: 'true',
@@ -846,8 +846,8 @@ alert(state+'state');*/
 var status="CV";
 
 $.ajax({
-//  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_five_a="+insu_accident_nine_five_a+"&insu_inves_nine_five_b="+insu_inves_nine_five_b+"&insu_final_nine_five_c="+insu_final_nine_five_c+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_one_zero_two_a="+insu_accident_one_zero_two_a+"&insu_investiagtor_one_zero_two_b="+insu_investiagtor_one_zero_two_b+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
+//  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_five_a="+insu_accident_nine_five_a+"&insu_inves_nine_five_b="+insu_inves_nine_five_b+"&insu_final_nine_five_c="+insu_final_nine_five_c+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_one_zero_two_a="+insu_accident_one_zero_two_a+"&insu_investiagtor_one_zero_two_b="+insu_investiagtor_one_zero_two_b+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
   data:$('#insuform').serialize(),
   type: 'post',                   
   async: 'true',
@@ -917,7 +917,7 @@ var formData = $("#insuform").serialize();
 //alert('drop button value insert 102');
 $.ajax({
   type: "POST",
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_one_zero_two_a="+insu_accident_one_zero_two_a+"&insu_investiagtor_one_zero_two_b="+insu_investiagtor_one_zero_two_b+"&status="+status,
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_one_zero_two_a="+insu_accident_one_zero_two_a+"&insu_investiagtor_one_zero_two_b="+insu_investiagtor_one_zero_two_b+"&status="+status,
   data: formData,
   success: onSuccessad,
   async: 'true',
@@ -962,9 +962,9 @@ alert(state+'state');*/
 var status="AC";
 
 $.ajax({
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_five_a="+insu_accident_nine_five_a+"&insu_inves_nine_five_b="+insu_inves_nine_five_b+"&insu_final_nine_five_c="+insu_final_nine_five_c+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
-  //url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_nine_a="+insu_accident_nine_nine_a+"&insu_investiagtor_nine_nine_b="+insu_investiagtor_nine_nine_b+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
-  //url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/index_verifd_insu.php?',
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_five_a="+insu_accident_nine_five_a+"&insu_inves_nine_five_b="+insu_inves_nine_five_b+"&insu_final_nine_five_c="+insu_final_nine_five_c+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
+  //url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_nine_a="+insu_accident_nine_nine_a+"&insu_investiagtor_nine_nine_b="+insu_investiagtor_nine_nine_b+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
+  //url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/index_verifd_insu.php?',
   data:$('#insuform').serialize(),
   type: 'post',                   
   async: 'true',
@@ -1034,7 +1034,7 @@ var formData = $("#insuform").serialize();
 alert('drop button value insert 95');
 $.ajax({
   type: "POST",
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_five_a="+insu_accident_nine_five_a+"&insu_inves_nine_five_b="+insu_inves_nine_five_b+"&insu_final_nine_five_c="+insu_final_nine_five_c+"&status="+status,
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_five_a="+insu_accident_nine_five_a+"&insu_inves_nine_five_b="+insu_inves_nine_five_b+"&insu_final_nine_five_c="+insu_final_nine_five_c+"&status="+status,
   data: formData,
   success: onSuccessad,
   async: 'true',
@@ -1072,8 +1072,8 @@ document.getElementById('insu_inves_nine_five_b').value = "";
 var status="ASDE";
 
 $.ajax({
-  //url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_five_a="+insu_accident_nine_five_a+"&insu_inves_nine_five_b="+insu_inves_nine_five_b+"&insu_final_nine_five_c="+insu_final_nine_five_c+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/one_zero_six.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_final_one_zero_six="+insu_final_one_zero_six+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
+  //url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_five_a="+insu_accident_nine_five_a+"&insu_inves_nine_five_b="+insu_inves_nine_five_b+"&insu_final_nine_five_c="+insu_final_nine_five_c+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/one_zero_six.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_final_one_zero_six="+insu_final_one_zero_six+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
   data:$('#insuform').serialize(),
   type: 'post',                   
   async: 'true',
@@ -1144,7 +1144,7 @@ var formData = $("#insuform").serialize();
 alert('drop button value insert 106');
 $.ajax({
   type: "POST",
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/one_zero_six.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_final_one_zero_six="+insu_final_one_zero_six+"&status="+status,
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/one_zero_six.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_final_one_zero_six="+insu_final_one_zero_six+"&status="+status,
   data: formData,
   success: onSuccessad,
   async: 'true',
@@ -1169,9 +1169,9 @@ if(insu_final_one_zero_one != '' ){
 var status="ASD";
 
 $.ajax({
-  //url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_five_a="+insu_accident_nine_five_a+"&insu_inves_nine_five_b="+insu_inves_nine_five_b+"&insu_final_nine_five_c="+insu_final_nine_five_c+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
- // url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/one_zero_six.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_final_one_zero_six="+insu_final_one_zero_six+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/one_zero_six.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_final_one_zero_one="+insu_final_one_zero_one+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
+  //url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/insur.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_accident_nine_five_a="+insu_accident_nine_five_a+"&insu_inves_nine_five_b="+insu_inves_nine_five_b+"&insu_final_nine_five_c="+insu_final_nine_five_c+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
+ // url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/one_zero_six.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_final_one_zero_six="+insu_final_one_zero_six+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/one_zero_six.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_final_one_zero_one="+insu_final_one_zero_one+"&status="+status+"&region="+region+"&user_id="+user_id+"&state="+state,
   data:$('#insuform').serialize(),
   type: 'post',                   
   async: 'true',
@@ -1241,7 +1241,7 @@ var formData = $("#insuform").serialize();
 alert('drop button value insert 101');
 $.ajax({
   type: "POST",
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/one_zero_six.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_final_one_zero_one="+insu_final_one_zero_one+"&status="+status,
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/one_zero_six.php?verification_user_id="+verification_user_id+"&qualification_id="+qualification_id+"&user_id="+user_id+"&state="+state+"&insu_final_one_zero_one="+insu_final_one_zero_one+"&status="+status,
   data: formData,
   success: onSuccessad,
   async: 'true',
@@ -1364,7 +1364,7 @@ var formData = $("#callAjaxForm").serialize();
 //alert('drop button value insert 84 85');
 $.ajax({
   type: "POST",
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/delete.php?del_id="+del_id,
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/delete.php?del_id="+del_id,
 
   data: formData,
   success: onSuccess,
@@ -1575,7 +1575,7 @@ var formData = $("#callAjaxForm").serialize();
 //alert('drop button value insert 84 85');
 $.ajax({
   type: "POST",
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/delete.php?del_id="+del_id,
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/delete.php?del_id="+del_id,
 
   data: formData,
   success: onSuccess,
@@ -1624,7 +1624,7 @@ var formData = $("#callAjaxForm").serialize();
 
 $.ajax({
   type: "POST",
-url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/sdoc.php?verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&res="+res+"&qualification_id="+qualification_id+"&user_id="+user_id,
+url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/sdoc.php?verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&res="+res+"&qualification_id="+qualification_id+"&user_id="+user_id,
 
   data: formData,
   success: onSuccess,
@@ -1709,7 +1709,7 @@ var formData = $("#callAjaxForm").serialize();
 
 $.ajax({
   type: "POST",
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/chat.php?loginistant="+loginistant+"&verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&status_val_inpro="+status_val_inpro+"&remarkg="+remarkg+"&qualification_id="+qualification_id+"&username="+username+"&typofver="+typofver+"&pertobever="+pertobever+"&pertobeverlast="+pertobeverlast+"&task="+task+"&eeemail="+eeemail+"&user_id="+user_id,
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/chat.php?loginistant="+loginistant+"&verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&status_val_inpro="+status_val_inpro+"&remarkg="+remarkg+"&qualification_id="+qualification_id+"&username="+username+"&typofver="+typofver+"&pertobever="+pertobever+"&pertobeverlast="+pertobeverlast+"&task="+task+"&eeemail="+eeemail+"&user_id="+user_id,
 
   data: formData,
   success: onSuccess,
@@ -1735,7 +1735,7 @@ var formData = $("#callAjaxForm").serialize();
 //alert('drop button value insert 84 85');
 $.ajax({
   type: "POST",
-  url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/lifeint.php?verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&qualification_id="+qualification_id+"&inte="+inte+"&inte_rat="+inte_rat+"&beh="+beh+"&beh_rat="+beh_rat+"&hab="+hab+"&hab_rat="+hab_rat,
+  url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/lifeint.php?verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&qualification_id="+qualification_id+"&inte="+inte+"&inte_rat="+inte_rat+"&beh="+beh+"&beh_rat="+beh_rat+"&hab="+hab+"&hab_rat="+hab_rat,
 
   data: formData,
   success: onSuccess,
@@ -1763,7 +1763,7 @@ var formData = $("#callAjaxForm").serialize();
 //alert('updateactivitya msg');
 $.ajax({
   type: "POST",
-url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/chat.php?loginistant="+loginistant+"&verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&status_val_inpro="+status_val_inpro+"&remarkg="+remarkg+"&qualification_id="+qualification_id+"&username="+username+"&typofver="+typofver+"&pertobever="+pertobever+"&pertobeverlast="+pertobeverlast+"&task="+task+"&eeemail="+eeemail+"&user_id="+user_id,
+url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/chat.php?loginistant="+loginistant+"&verification_user_id="+verification_user_id+"&coordinator_id="+coordinator_id+"&status_val_inpro="+status_val_inpro+"&remarkg="+remarkg+"&qualification_id="+qualification_id+"&username="+username+"&typofver="+typofver+"&pertobever="+pertobever+"&pertobeverlast="+pertobeverlast+"&task="+task+"&eeemail="+eeemail+"&user_id="+user_id,
 
   data: formData,
   success: onSuccess,
@@ -1796,7 +1796,7 @@ document.getElementById('remarkg').value = "";
  alert('Verification Record Submitted Successfully');
 //alert('Verification Record Submitted Successfully bfr sdsdf');
 // $('#myPopupr').hide();
-$.ajax({url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/count.php?region='+region+"&user_id="+user_id+"&state="+state,
+$.ajax({url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/count.php?region='+region+"&user_id="+user_id+"&state="+state,
   data:$('#update_to_inprogressw').serialize(),
   type: 'post',                   
   async: 'true',

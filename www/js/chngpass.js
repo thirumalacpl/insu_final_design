@@ -8,7 +8,7 @@ $(document).off('click', '#next').on('click', '#next', function() {
   //alert('chngpass');
             if($('#userchn').val().length > 0 && $('#chngpassword').val().length > 0){
         console.log($('#check_userpass').serialize());
-                    $.ajax({url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/chngpass.php',
+                    $.ajax({url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/chngpass.php',
                         data:$('#check_userpass').serialize(),
                         type: 'post',                   
                         async: 'true',

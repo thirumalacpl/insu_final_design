@@ -111,7 +111,7 @@ $("#completed_count").html(not_verified_counta.completed_count);
 
 $(document).off('click', '#new_verification').on('click', '#new_verification', function() {
 //alert(region+'refresh');
-$.ajax({url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/dashnewveri.php?region='+region,
+$.ajax({url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/dashnewveri.php?region='+region,
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -150,7 +150,7 @@ alert('Network error has occurred please try again!');
 
 $(document).off('click', '#inprogress').on('click', '#inprogress', function() {
 //alert(region+'inprogress');
-$.ajax({url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/dashinprogress.php?region='+region+"&user_id="+user_id+"&state="+state,
+$.ajax({url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/dashinprogress.php?region='+region+"&user_id="+user_id+"&state="+state,
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -227,7 +227,7 @@ alert('Network error has occurred please try again!');
 
 $(document).off('click', '#verified').on('click', '#verified', function() {
 //alert(region+'verified');
-$.ajax({url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/dashverified.php?region='+region+"&user_id="+user_id+"&state="+state,
+$.ajax({url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/dashverified.php?region='+region+"&user_id="+user_id+"&state="+state,
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -301,7 +301,7 @@ alert('Network error has occurred please try again!');
 
 $(document).off('click', '#not_verified').on('click', '#not_verified', function() {
 //alert(region+'verified');
-$.ajax({url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/dash_not_verified.php?region='+region+"&user_id="+user_id+"&state="+state,
+$.ajax({url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/dash_not_verified.php?region='+region+"&user_id="+user_id+"&state="+state,
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',
@@ -374,7 +374,7 @@ alert('Network error has occurred please try again!');
 
 $(document).off('click', '#completed').on('click', '#completed', function() {
 //alert(region+'verified');
-$.ajax({url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/completed.php?region='+region+"&user_id="+user_id+"&state="+state,
+$.ajax({url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/completed.php?region='+region+"&user_id="+user_id+"&state="+state,
   data:$('#newt').serialize(),
   type: 'post',                   
   async: 'true',
@@ -499,7 +499,7 @@ var app = {
         var gcm_regid = data.registrationId;
         //alert(gcm_regid+'dashboard js');
 if(gcm_regidexi != gcm_regid ){
- $.ajax({url: 'http://192.168.1.101/slim_insurance/slim_four_ripsssjs/gcm_id.php?gcm_regid='+gcm_regid+"&E_Mail="+E_Mail+"&username="+username+"&region="+region+"&user_id="+user_id,
+ $.ajax({url: 'http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/gcm_id.php?gcm_regid='+gcm_regid+"&E_Mail="+E_Mail+"&username="+username+"&region="+region+"&user_id="+user_id,
   data:$('#new').serialize(),
   type: 'post',                   
   async: 'true',

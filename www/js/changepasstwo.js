@@ -35,7 +35,7 @@ if(ppassword == ''  ){
    // $.mobile.changePage($('#Volunteer'), { transition: "none", changeHash: true, reverse: false });
 }else if((ppassword == reppassword) && (n >= 8) ){
 
-$.ajax({url: "http://192.168.1.101/slim_insurance/slim_four_ripsssjs/chngpass_final.php?PPassword="+ppassword+"&uusername="+uusername,
+$.ajax({url: "http://staging.eimpressive.com/slim_insurance/slim_four_ripsssjs/chngpass_final.php?PPassword="+ppassword+"&uusername="+uusername,
     data:$('#check_finalchange').serialize(),
     type: 'post',                   
     async: 'true',
