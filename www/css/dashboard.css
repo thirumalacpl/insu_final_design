@@ -1005,15 +1005,15 @@ background-color:#3F4050 !important;
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 .edit_img_icon{
 float: right !important;
-height: 150px !important;
-width: 150px !important;
+/*height: 150px !important;
+width: 150px !important;*/
 }
 }
 @media only screen and (min-width: 300px) and (max-width: 600px) {
 .edit_img_icon{
 float: right !important;
-height: 50px !important;
-width: 50px !important;
+/*height: 50px !important;
+width: 50px !important;*/
 }
   }
 
