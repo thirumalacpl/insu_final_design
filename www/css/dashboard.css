@@ -961,6 +961,56 @@ background-color:#3F4050 !important;
           #edit_claimant_details_acc_vehic{
 background-color:#3F4050 !important;
   }
+}
 
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+.edit-up-new{
+    background-color: red !important;
+    color: #fff !important;
+    padding: 5% !important;
+   /* margin-left: -200px !important;*/
 
 }
+#edit_owner_driver_details_owner{
+background-color:#3F4050 !important;
+  }
+#edit_outside_driver_details{
+background-color:#3F4050 !important;
+  }
+  #edit_fir_details{
+background-color:#3F4050 !important;
+  }
+    #edit_insured_details{
+background-color:#3F4050 !important;
+  }
+      #edit_claimant_details{
+background-color:#3F4050 !important;
+  }
+        #edit_claimant_details_injured{
+background-color:#3F4050 !important;
+  }
+          #edit_claimant_details_injured_decea{
+background-color:#3F4050 !important;
+  }
+          #edit_acci_details_a{
+background-color:#3F4050 !important;
+  }
+          #edit_claimant_details_acc_vehic{
+background-color:#3F4050 !important;
+  }
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.edit_img_icon{
+float: right !important;
+height: 150px !important;
+width: 150px !important;
+}
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+.edit_img_icon{
+float: right !important;
+height: 50px !important;
+width: 50px !important;
+}
+  }
